@@ -37,11 +37,22 @@
 
 }
 
+@media(max-width:700px){
+  .recipe{
+    width: 80%;
+
+
+  }
+
+
+}
+
 
 
 .list{
   
   padding-left:60px;
+  padding-right:60px;
   padding-bottom:200px;
 }
 
@@ -54,20 +65,24 @@
 }
 
 .imgwrap{
+ 
   position:absolute;
   bottom:0;
-  margin-left:35%;
-  padding-bottom:10px;
+  margin-bottom:10px;
+  
+  align-self: center
+  
 }
 
 
 img{
   
+ 
+  
+  
   width: 200px;
   height:150px;
   width: auto;
-  margin-left:auto;
-  margin-right: auto;
   bottom:10px;
   margin-bottom:5%;
   border-radius:10px;
